@@ -1,4 +1,12 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
-
-export default nextConfig;
+const nextConfig = {
+    images: {
+      domains: ['static01.nyt.com', 'www.nytimes.com'],
+    },
+  
+  
+  };
+  
+  export default nextConfig;
+  
+  
